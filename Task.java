@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Task {
     public static void main(String[] args) {
-        Scanner eded1=new Scanner(System.in);
+        Scanner number1=new Scanner(System.in);
         System.out.println("add the first number:");
-        int n=eded1.nextInt();
-        Scanner eded2=new Scanner(System.in);
+        int n=number1.nextInt();
+        Scanner number2=new Scanner(System.in);
         System.out.println("add the second number:");
-        int n2=eded2.nextInt();
+        int n2=number2.nextInt();
         Scanner operator=new Scanner(System.in);
         System.out.println("add the operator:");
         char op=operator.next().charAt(0);
